@@ -136,14 +136,15 @@ def sum_of_odds(nums):
     return total
 
 print(sum_of_odds(5))
+print(sum_of_odds(10))
 
-def sum_of_evens(nums):
-    total = 0
-    for i in range(nums+1):
-        if i%2==0:
-            total+=i
-        else:
-            continue
-    return total
-
-print(sum_of_evens(5))
+# def sum_of_evens(nums):
+#     total = 0
+#     for i in range(nums+1):
+#         if i%2==0:
+#             total+=i
+#         else:
+#             continue
+#     return total
+#
+# print(sum_of_evens(5))
