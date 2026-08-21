@@ -23,4 +23,5 @@ print(it_companies)
 
 it_companies.discard("Facebook")
 print(it_companies)
+print(it_comapnies)
 #remove gives error if the item is not found,while discard does nothing in that case.
